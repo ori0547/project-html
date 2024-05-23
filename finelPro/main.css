@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body,
+html {
+    overflow-x: hidden;
+}
+ */
+head {
+    direction: rtl;
+}
+
+
+.navbar-brand {
+    font-family: serif;
+}
+
+.container-fluid_header {
+    width: 100vw;
+    height: 150px;
+    background-color: rgba(19, 232, 241, 0.388);
+    text-align: center;
+    padding-top: 70px;
+}
+
+.container-fluid_header h1 {
+    font-family: arial;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.container-fluid_header h1 p {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+.center {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.pic {
+    width: 1450px;
+    max-width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* .pic_num {
+    width: 100px;
+    height: 100px;
+    margin: 5px 12px;
+    justify-content: space-between;
+
+} */
+
+.mainBanner {
+    min-height: 480px;
+    background-color: rgba(19, 232, 241, 0.388);
+}
+
+.aboutMe {
+    width: 1450px;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.likeBu {
+    width: 200px;
+    background-color: #1AE0EC;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+a.bu {
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+.likeBu:hover {
+    background-color: black;
+}
+
+/* .oneAction {
+    margin: 0 auto;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} */
+
+.callToAction {
+    background-color: #F6F6F6;
+    width: 100%;
+    max-width: 100%;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+/* .card-title {
+    direction: rtl;
+    text-align: center;
+} */
+.smallPic {
+    width: 40px;
+    height: auto;
+}
+
+.form {
+    max-width: 100%;
+    background-color: #3A3A3A;
+    height: 700px;
+
+}
+
+.formDiv {
+    padding: 150px;
+    direction: rtl;
+    position: relative;
+
+}
+
+
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-family: arial;
+    color: #fff;
+}
+
+input {
+    border: 0;
+    border-bottom: 3px solid #1AE0EC;
+    background-color: #fff;
+    font-size: 1.2rem;
+    width: 300px;
+}
+
+.clickMe {
+    display: block;
+    margin-top: 15px;
+    width: 90px;
+    background-color: #1AE0EC;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+.clickMe:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.envelope img {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+
+}
+
+.envelope {
+    position: absolute;
+    top: 0;
+    right: 590px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: auto;
+    /* max-width: 590px; */
+}
+
+.hForm {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.pForm {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    max-width: 100%;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    background-color: #1AE0EC;
+    justify-content: space-around;
+}
+
+.imgSvg {
+    height: 60px;
+    margin-top: 60px;
+}
+
+.imageInfo {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#footer {
+    height: 40px;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid aqua;
+
+}
+
+foopter p {
+    display: inline;
+    margin: 0;
+
+}
+
+footer span {
+    color: aqua;
+}
