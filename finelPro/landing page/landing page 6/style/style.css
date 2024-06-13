@@ -172,6 +172,10 @@ textarea {
         align-items: center;
     }
 
+    .bigHeader {
+        margin-bottom: 80px;
+    }
+
     .container {
         width: 100%;
         flex-direction: column;
@@ -179,6 +183,7 @@ textarea {
 
     .yellow {
         width: 90vw;
+        height: 10px;
     }
 
     .whatsappImg {
@@ -273,6 +278,7 @@ textarea {
 
     .yellowBottom {
         width: 100vw;
+        height: 10px;
     }
 
 

@@ -250,9 +250,7 @@ label {
 }
 
 @media (max-width: 540px) {
-    .form1 section {
-        top: 10px;
-    }
+
 
     #full-name,
     #email {
@@ -299,5 +297,11 @@ label {
         letter-spacing: 0.36px;
         color: #011560;
         margin-top: 5px;
+    }
+}
+
+@media (max-width: 420px) {
+    .form1 section {
+        top: 10px;
     }
 }
