@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    border-top: 3px solid #1AE0EC;
+
+}
+
+.navbar-brand {
+    font-family: serif;
+    margin-left: 15%;
+
+}
+
+.divNav {
+    margin-right: 8%;
+    font-size: 1.5rem;
+
+}
+
+.mainBanner {
+    min-height: 480px;
+    background-color: rgba(21, 184, 189, 0.775);
+    background-image: url(./images/wifi.png);
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+.pic {
+    width: 1450px;
+    max-width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.type {
+    width: 100vw;
+    background-color: #EBFEFF;
+}
+
+.typePic {
+    width: 90%;
+}
+
+.typePic img {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 140px;
+    padding-bottom: 50px;
+}
+
+#footer {
+    height: 40px;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid aqua;
+
+}
+
+foopter p {
+    display: inline;
+    margin: 0;
+
+}
+
+footer span {
+    color: aqua;
+}
+
+.btnnn {
+    display: inline;
+}
+
+li a {
+    margin: 0px 20px;
+}
+
+.btnnn a {
+    background-color: #1AE0EC !important;
+    border-radius: 15px 15px 15px 15px !important;
+    margin: 0px 30px;
+    border: none !important;
+}
+
+.btnnn a:hover {
+    color: #fff !important;
+    background-color: black !important;
+}
+
+li:hover {
+    border-bottom: 3px solid #1AE0EC;
+    color: #1AE0EC !important;
+    font-family: heebo;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .divNav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        text-align: center;
+        background-color: #fff;
+        margin-right: 0%;
+    }
+
+    li:hover {
+        border-bottom: 3px solid #1AE0EC;
+        border-top: 3px solid #1AE0EC;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+}

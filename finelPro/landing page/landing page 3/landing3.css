@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5EEFF;
+}
+
+.container {
+    max-width: 100%;
+    width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 15px;
+    grid-template-areas:
+        "img1 img2 text1 text1"
+        "img3 img4 text1 text1"
+        "img5 img6 img7 img8"
+        "form1 form1 img9 img10"
+        "form1 form1 img11 img12"
+        "form1 form1 img13 img14"
+    ;
+
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.img6 {
+    grid-area: img6;
+}
+
+.img7 {
+    grid-area: img7;
+}
+
+.img8 {
+    grid-area: img8;
+}
+
+.img9 {
+    grid-area: img9;
+}
+
+.img10 {
+    grid-area: img10;
+}
+
+.img11 {
+    grid-area: img11;
+}
+
+.img12 {
+    grid-area: img12;
+}
+
+.img13 {
+    grid-area: img13;
+}
+
+.img14 {
+    grid-area: img14;
+}
+
+.text1 {
+    position: relative;
+    grid-area: text1;
+    background-color: #020253;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+.text1 section {
+    position: absolute;
+    padding: 75px;
+    direction: rtl;
+}
+
+.form1 {
+    position: relative;
+    grid-area: form1;
+    overflow: auto;
+}
+
+.form1 section {
+    position: absolute;
+    top: 0;
+    padding: 36px 55px;
+    direction: rtl;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.text2 {
+    text-align: center;
+    font: normal normal bold 61px/80px Assistant;
+    letter-spacing: 0px;
+    color: #0EE1DA;
+    opacity: 1;
+    /* margin-top: 160px; */
+}
+
+.text3 {
+    text-align: center;
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.form1 {
+    background-color: #8E097C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form2 {
+    text-align: center;
+    font: normal normal bold 35px/46px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.form3 {
+    text-align: center;
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    margin-bottom: 55px;
+}
+
+
+
+textarea {
+    resize: none;
+}
+
+#full-name,
+#email {
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 4px solid #0EE1DA;
+    height: 38px;
+}
+
+#experience {
+    border-bottom: 4px solid #0EE1DA;
+    width: 100%;
+}
+
+.sub {
+    width: 100%;
+    height: 38px;
+    background: #0EE1DA 0% 0% no-repeat padding-box;
+    border: none;
+    font: normal normal bold 24px/33px Heebo;
+    letter-spacing: 0.36px;
+    color: #011560;
+    margin-top: 10px;
+}
+
+label {
+    font: normal normal bold 16px/24px Heebo;
+    letter-spacing: 0px;
+    color: #0EE1DA;
+}
+
+.sub:hover {
+    background-color: #011560;
+    color: #0EE1DA;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        margin-top: 0;
+        padding: 0 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-areas:
+            "text1 text1"
+            "text1 text1"
+            "img1 img2"
+            "img3 img4"
+            "img5 img6"
+            "img7 img8"
+            "form1 form1"
+            "form1 form1"
+            "form1 form1"
+            "img9 img10"
+            "img11 img12"
+            "img13 img14";
+    }
+
+    .text1 {
+        margin: 0 -20px 5px;
+    }
+
+    .text1 section {
+        padding: 50px;
+    }
+
+    .text2 {
+        font-size: 36px;
+        line-height: 47px;
+    }
+
+    .text3 {
+        margin-top: 14px;
+    }
+
+    .form1 section {
+        position: absolute;
+        top: 80px;
+        padding: 0px 50px;
+        direction: rtl;
+    }
+}

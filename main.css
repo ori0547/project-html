@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+head {
+    direction: rtl;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border-top: 3px solid #1AE0EC;
+
+}
+
+.navbar-brand {
+    font-family: serif;
+    margin-left: 15%;
+}
+
+.divNav {
+    font-size: 1.5rem;
+    margin-right: 8%;
+}
+
+li a {
+    margin: 0px 20px;
+}
+
+li:hover {
+    border-bottom: 3px solid #1AE0EC;
+    font-family: heebo;
+    font-weight: bold;
+}
+
+
+
+
+
+h1 {
+    font-family: heebo !important;
+    font-weight: bold !important;
+}
+
+p {
+    font-family: heebo !important;
+}
+
+
+
+.center {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.pic {
+    width: 1450px;
+    max-width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px 6px #00000029;
+
+}
+
+.pic_num {
+    min-width: 85px;
+    max-width: 100px;
+}
+
+.mainBanner {
+    min-height: 480px;
+    background-color: rgba(21, 184, 189, 0.775);
+    background-image: url(./img/wifi.png);
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+.aboutMe {
+    width: 1450px;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.likeBu {
+    width: 200px;
+    background-color: #1AE0EC;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+a.bu {
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+.likeBu:hover {
+    background-color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+
+}
+
+
+.callToAction {
+    background-color: #F6F6F6;
+    width: 100%;
+    max-width: 100%;
+    padding: 50px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.smallPic {
+    width: 40px;
+    height: auto;
+}
+
+.form {
+    max-width: 100%;
+    background-color: #3A3A3A;
+    height: 700px;
+
+}
+
+.formDiv {
+    padding: 150px;
+    direction: rtl;
+    position: relative;
+
+}
+
+
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-family: arial;
+    color: #fff;
+}
+
+input {
+    border: 0;
+    border-bottom: 3px solid #1AE0EC;
+    background-color: #fff;
+    font-size: 1.2rem;
+    width: 300px;
+}
+
+.clickMe {
+    display: block;
+    margin-top: 15px;
+    width: 90px;
+    background-color: #1AE0EC;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+.clickMe:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.envelope img {
+    min-width: 300px;
+
+}
+
+
+.envelope {
+    position: absolute;
+    top: 0;
+    right: 590px;
+    bottom: 0;
+    left: 0;
+}
+
+.hForm {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.pForm {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    max-width: 100%;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    background-color: #1AE0EC;
+    justify-content: space-around;
+}
+
+.imgSvg {
+    height: 60px;
+    margin-top: 60px;
+}
+
+.imageInfo {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#footer {
+    height: 40px;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid aqua;
+
+}
+
+
+footer span {
+    color: aqua;
+}
+
+div .card-body a {
+    background-color: #1AE0EC;
+    height: 15%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid white;
+}
+
+div .card-body a:hover {
+    background-color: #000;
+    border: 1px solid #1AE0EC;
+
+}
+
+@media (max-width: 992px) {
+    .divNav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        text-align: center;
+        background-color: #fff;
+        margin-right: 0%;
+    }
+
+    li:hover {
+        border-bottom: 3px solid #1AE0EC;
+        border-top: 3px solid #1AE0EC;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+}
+
+/* הגדרות עבור מסך גדול יותר */
+@media (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        /* הגדרת מרווח בין הקארדים */
+        justify-content: center;
+        /* מרכז את הקארדים באופן אופקי */
+    }
+}
+
+/* הגדרות עבור מסך קטן יותר (מובייל) */
+@media (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* כל קארד יתפוס את רוחב הקונטיינר */
+        gap: 1rem;
+        /* הגדרת מרווח בין הקארדים */
+        justify-content: center;
+    }
+
+    .formDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hForm {
+        width: 200px;
+    }
+
+    .pForm {
+        width: 200px;
+    }
+
+    .imageInfo {
+        width: 80%;
+        height: 80%;
+    }
+}
