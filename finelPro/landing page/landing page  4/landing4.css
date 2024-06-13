@@ -91,6 +91,7 @@ label {
     border: #FFFFFF;
     font-family: Varela Round;
     max-width: 100%;
+    color: black;
 }
 
 .form-control-btn input:hover {
