@@ -173,7 +173,7 @@ textarea {
     }
 
     .bigHeader {
-        margin-bottom: 80px;
+        margin-bottom: 30px;
     }
 
     .container {
@@ -195,7 +195,7 @@ textarea {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 30vh;
+        height: 20vh;
     }
 
     .small img {
