@@ -211,12 +211,17 @@ textarea {
 
     .bigHeader h1 {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .bigHeader p {
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.9rem;
+        margin-top: 0px;
+    }
+
+    .form lable {
+        font-size: 0.8rem;
     }
 
     .onetwo {
@@ -231,11 +236,13 @@ textarea {
 
     .textarea textarea {
         width: 300px;
+        height: 100px;
     }
 
     .btn {
         width: 300px;
         margin-top: 10px;
+        height: 32px;
     }
 
     .bottom {

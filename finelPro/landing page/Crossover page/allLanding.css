@@ -128,4 +128,12 @@ li:hover {
     .nav-item {
         width: 100%;
     }
+
+    .typePic img {
+        margin-left: 35px;
+    }
+
+    .btnnn {
+        display: flex;
+    }
 }
