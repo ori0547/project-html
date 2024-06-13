@@ -33,7 +33,6 @@
 .container2 p {
     font-size: 1.3em;
     color: #F9F9F9;
-    margin-bottom: 150px;
 }
 
 .form {
@@ -92,6 +91,7 @@ form div {
 
     .container2 h1 {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .container2 p {
@@ -107,6 +107,7 @@ form div {
 
     form div {
         margin-bottom: 20px;
+        margin-right: 0px;
     }
 
     .form {
