@@ -136,4 +136,8 @@ li:hover {
     .btnnn {
         display: flex;
     }
+
+    .navbar-nav {
+        flex-direction: column-reverse;
+    }
 }

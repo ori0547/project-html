@@ -279,6 +279,10 @@ div .card-body a:hover {
         margin-right: 0%;
     }
 
+    .navbar-nav {
+        flex-direction: column-reverse;
+    }
+
     li:hover {
         border-bottom: 3px solid #1AE0EC;
         border-top: 3px solid #1AE0EC;
