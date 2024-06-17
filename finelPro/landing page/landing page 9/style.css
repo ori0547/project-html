@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all {
+    background-image: url(./images/cocktails.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.main {
+    width: 60vw;
+    text-align: center;
+    align-content: center;
+}
+
+.WE {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 5em;
+    color: #fef274;
+}
+
+.LOVE {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 5em;
+    color: #84ce9a;
+}
+
+.COCKTAILS {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 5em;
+    color: #f9b2d0;
+}
+
+.form {
+    text-align: center;
+    align-content: center;
+    border-left: 1px solid black;
+}
+
+.form h1 {
+    font-family: serif;
+    color: black;
+    font-size: 3em;
+
+}
+
+.form h2 {
+    font-family: serif;
+    color: black;
+    font-size: 2em;
+    margin-top: 15px;
+
+}
+
+input {
+    margin-top: 15px;
+    width: 40%;
+    height: 50px;
+}
+
+#text {
+    border-bottom: 5px solid #fef274;
+}
+
+#email {
+    border-bottom: 5px solid #84ce9a;
+}
+
+#btn {
+    border-bottom: 5px solid #f9b2d0;
+}
+
+@media (max-width: 768px) {
+    .all {
+        flex-direction: column;
+    }
+
+    .main {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .WE {
+        font-size: 3em;
+    }
+
+    .LOVE {
+        font-size: 3em;
+    }
+
+    .COCKTAILS {
+        font-size: 3em;
+    }
+
+    .form {
+        border-left: none;
+        border-top: 1px solid black;
+
+    }
+
+    .form h1 {
+
+        font-size: 1.5em;
+        padding-top: 50px;
+
+    }
+
+    .form h2 {
+
+        font-size: 1em;
+
+    }
+
+    input {
+        width: 60%;
+    }
+
+}
