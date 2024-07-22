@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Page Builder</h1>
+      <p>Make your own div!</p>
+      <form id="builder-form">
+        <label for="element-type">Element Type</label>
+        <input type="text" id="element-type" name="element-type" value="div" />
+
+        <label for="element-width">Element Width</label>
+        <input
+          type="number"
+          id="element-width"
+          name="element-width"
+          value="453"
+        />
+
+        <label for="element-height">Element Height</label>
+        <input
+          type="number"
+          id="element-height"
+          name="element-height"
+          value="42"
+        />
+
+        <label for="element-content">Element Content</label>
+        <input
+          type="text"
+          id="element-content"
+          name="element-content"
+          value="retaedgfds"
+        />
+
+        <label for="background-color">Background Color</label>
+        <input
+          type="color"
+          id="background-color"
+          name="background-color"
+          value="#3CBEB7"
+        />
+
+        <label for="font-color">Font Color</label>
+        <input type="color" id="font-color" name="font-color" value="#5246E3" />
+
+        <label for="font-size">Font Size</label>
+        <input type="number" id="font-size" name="font-size" value="2" />
+
+        <label for="font-family">Font Family</label>
+        <input type="text" id="font-family" name="font-family" value="arial" />
+
+        <button type="button" id="insert-button">Insert</button>
+        <button type="button" id="cleanup-button">Clean Up</button>
+      </form>
+    </div>
+    <div id="empty-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
