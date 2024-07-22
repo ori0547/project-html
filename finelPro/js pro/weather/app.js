@@ -11,7 +11,7 @@ let hum = document.getElementById('humidity');
 let wind = document.getElementById('wind-speed');
 let city = document.getElementById('city-input');
 let btn = document.getElementById('search-button').addEventListener('click', () => {
-    fetch("http://api.weatherapi.com/v1/current.json?key=005427c0931445a088d152808242207&q=" + city.value + "&aqi=no", requestOptions)
+    fetch("https://api.weatherapi.com/v1/current.json?key=005427c0931445a088d152808242207&q=" + city.value + "&aqi=no", requestOptions)
         .then((response) => {
             if (!response.ok || !city.value) {
                 alert(`City not found: try agin`);
