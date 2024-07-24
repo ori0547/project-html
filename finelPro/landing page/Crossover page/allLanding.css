@@ -140,4 +140,13 @@ li:hover {
     .navbar-nav {
         flex-direction: column-reverse;
     }
+
+    div h1 {
+        padding-top: 80px;
+    }
+
+    .btnnn {
+        padding-bottom: 30px;
+    }
+
 }
