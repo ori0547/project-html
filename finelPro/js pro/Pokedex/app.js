@@ -34,6 +34,9 @@ btn.addEventListener('click', () => {
             It has ${result.forms.length} evolutions and
             it has a base experience of ${result.base_experience}. `
             pokeSound.src = result.cries.latest;
+            if (pokePic.style.display = "block") {
+                pokeInfo.style.display = "none";
+            }
 
 
             console.log(result)

@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f7f7f7;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: #fff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,6 +11,7 @@ body {
     align-items: center;
     height: 100vh;
     overflow-y: auto;
+    image-rendering: pixelated;
 }
 
 .pokemon-list {
@@ -18,33 +20,36 @@ body {
 }
 
 .pokemon-list h3 {
-    color: #e60000;
+    color: #ffcc00;
     font-size: 20px;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .pokemon-list p {
     display: none;
-    color: #333;
+    color: #fff;
     font-size: 18px;
     line-height: 1.5;
     max-width: 90%;
     margin: 0 auto;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .pokemon-list button {
-    background-color: #e60000;
-    color: white;
-    border: none;
+    background-color: #ffcc00;
+    color: #000;
+    border: 2px solid #fff;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
-    border-radius: 5px;
+    border-radius: 0;
     transition: background-color 0.3s ease;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .pokemon-list button:hover {
-    background-color: #cc0000;
+    background-color: #cc9900;
 }
 
 .container {
@@ -56,9 +61,9 @@ body {
 }
 
 .pokedex {
-    background: linear-gradient(145deg, #ffffff, #ececec);
-    border: 5px solid #e60000;
-    border-radius: 20px;
+    background: #222;
+    border: 5px solid #ffcc00;
+    border-radius: 0;
     width: 90%;
     max-width: 500px;
     padding: 20px;
@@ -67,10 +72,10 @@ body {
 }
 
 .header {
-    background-color: #e60000;
-    color: white;
+    background-color: #ffcc00;
+    color: #000;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
@@ -80,6 +85,7 @@ body {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .search {
@@ -91,25 +97,28 @@ body {
 .search input {
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #e60000;
-    border-radius: 5px 0 0 5px;
+    border: 2px solid #ffcc00;
+    border-radius: 0;
     width: 70%;
     max-width: 300px;
+    background: #000;
+    color: #fff;
 }
 
 .search button {
     padding: 10px 15px;
     font-size: 16px;
     border: none;
-    background-color: #e60000;
-    color: white;
+    background-color: #ffcc00;
+    color: #000;
     cursor: pointer;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0;
     transition: background-color 0.3s ease;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .search button:hover {
-    background-color: #cc0000;
+    background-color: #cc9900;
 }
 
 .pokemon-info {
@@ -128,33 +137,33 @@ body {
 .pokemon-image img {
     display: none;
     width: 100%;
-    border: 4px solid #e60000;
-    border-radius: 15px;
+    border: 4px solid #ffcc00;
+    border-radius: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    image-rendering: pixelated;
 }
 
 .pokemon-details h2 {
-    color: #e60000;
+    color: #ffcc00;
     margin: 0;
     font-size: 22px;
     font-weight: 700;
+    text-shadow: 1px 1px 2px #000;
 }
-
 
 .pokemon-details audio {
     display: none;
     width: 100%;
     margin-top: 15px;
-    border: 4px solid #e60000;
-    border-radius: 15px;
+    border: 4px solid #ffcc00;
+    border-radius: 0;
 }
-
-
 
 .pokemon-details p {
     display: none;
-    color: #333;
+    color: #fff;
     font-size: 16px;
     margin-top: 10px;
     line-height: 1.5;
+    text-shadow: 1px 1px 2px #000;
 }

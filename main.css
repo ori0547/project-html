@@ -292,6 +292,10 @@ div .card-body a:hover {
         width: 100%;
     }
 
+    .envelope {
+        display: none;
+    }
+
 
 }
 
