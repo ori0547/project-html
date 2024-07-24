@@ -85,18 +85,17 @@ button:hover {
 .winnerBox {
     display: none;
     width: 500px;
-    height: 300px;
+    height: 200px;
     border: 2px solid #333;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: absolute;
-    top: 50%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #3498db;
+    background-color: rgba(52, 152, 219, 0.59);
     padding: 20px;
     box-sizing: border-box;
-    display: none;
 
 }
 
