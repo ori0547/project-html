@@ -297,6 +297,7 @@ div .card-body a:hover {
     }
 
 
+
 }
 
 /* הגדרות עבור מסך גדול יותר */
@@ -327,7 +328,10 @@ div .card-body a:hover {
         display: flex;
         flex-direction: column;
         padding: 50px;
+
+
     }
+
 
     .hForm {
         width: 100%;
@@ -346,4 +350,10 @@ div .card-body a:hover {
     .imgSvg {
         height: 40px;
     }
+
+    .mainH1 {
+        margin-top: 70px;
+    }
+
+
 }
