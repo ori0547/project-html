@@ -23,7 +23,12 @@ btn.addEventListener('click', () => {
                 cocktailName.innerText = result.drinks[0].strDrink;
                 const drink = result.drinks[0];
                 img.src = drink.strDrinkThumb;
-                infococktails.innerText = `The main ingredients are: ${drink.strIngredient1},  ${drink.strIngredient2},  ${drink.strIngredient3}. The preparation method of ${drink.strDrink.charAt(0).toUpperCase() + drink.strDrink.slice(1)} is to ${drink.strInstructions}`;
+                if (drink.strIngredient3 === null) {
+                    infococktails.innerText = `The main ingredients are: ${drink.strIngredient1},  ${drink.strIngredient2}. The preparation method of ${drink.strDrink.charAt(0).toUpperCase() + drink.strDrink.slice(1)} is to ${drink.strInstructions}`;
+                } else {
+                    infococktails.innerText = `The main ingredients are: ${drink.strIngredient1},  ${drink.strIngredient2},  ${drink.strIngredient3}. The preparation method of ${drink.strDrink.charAt(0).toUpperCase() + drink.strDrink.slice(1)} is to ${drink.strInstructions}`;
+                }
+
                 p.style.display = "block"
                 console.log(drink);
             } else {
