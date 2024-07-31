@@ -23,23 +23,22 @@ btn.addEventListener('click', () => {
                 cocktailName.innerText = result.drinks[0].strDrink;
                 const drink = result.drinks[0];
                 img.src = drink.strDrinkThumb;
-                infococktails.innerText = `The three main ingredients is 1: ${drink.strIngredient1}, 2: ${drink.strIngredient2}, 3: ${drink.strIngredient3}. The description of ${drink.strDrink.charAt(0).toUpperCase() + drink.strDrink.slice(1)} is ${drink.strInstructions}`;
+                infococktails.innerText = `The main ingredients are: ${drink.strIngredient1},  ${drink.strIngredient2},  ${drink.strIngredient3}. The preparation method of ${drink.strDrink.charAt(0).toUpperCase() + drink.strDrink.slice(1)} is to ${drink.strInstructions}`;
                 p.style.display = "block"
                 console.log(drink);
             } else {
                 theResultsDiv.style.display = "none";
                 img.style.display = "none";
-                messegeError.innerText = "we don't found this cocktail"
+                messegeError.innerText = "We didnt find this cocktail"
                 messegeError.style.color = "black"
                 setTimeout(() => {
                     document.location.reload()
-                }, 2000)
+                }, 3000)
 
             }
 
         })
         .catch((error) => {
-            // טיפול בשגיאות
             console.error(error);
             theResultsDiv.style.display = "none";
             img.style.display = "none";
