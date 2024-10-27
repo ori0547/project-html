@@ -17,6 +17,12 @@ head {
 
 }
 
+.me-3 {
+    max-width: 50px;
+    max-height: 40px;
+    border-radius: 50%;
+}
+
 .navbar-brand {
     font-family: serif;
     margin-left: 15%;
@@ -87,6 +93,14 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+
+}
+
+.aboutMePic {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
 
 }
 
@@ -219,10 +233,12 @@ textarea {
 .info {
     max-width: 100%;
     width: 100vw;
-    height: 200px;
     display: flex;
     background-color: #1AE0EC;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: stretch;
+
 }
 
 .imgSvg {
@@ -231,7 +247,7 @@ textarea {
 }
 
 .imageInfo {
-    display: inline-block;
+    justify-content: space-between;
     text-align: center;
     margin-right: 20px;
 }

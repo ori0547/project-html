@@ -12,6 +12,12 @@
 
 }
 
+.me-3 {
+    max-width: 50px;
+    max-height: 40px;
+    border-radius: 50%;
+}
+
 .navbar-brand {
     font-family: serif;
     margin-left: 15%;
