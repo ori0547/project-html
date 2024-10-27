@@ -244,7 +244,14 @@ textarea {
 .imgSvg {
     height: 60px;
     margin-top: 60px;
+
 }
+
+a.pSvg {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .imageInfo {
     justify-content: space-between;
