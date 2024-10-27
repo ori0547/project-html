@@ -375,5 +375,17 @@ div .card-body a:hover {
         padding: 10px;
     }
 
+    .me-3 {
+        max-width: 50px;
+        max-height: 40px;
+        border-radius: 50%;
+    }
+
+    .me-3 {
+        max-width: 50px;
+        max-height: 40px;
+        border-radius: 50%;
+    }
+
 
 }
